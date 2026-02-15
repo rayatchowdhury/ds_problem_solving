@@ -15,4 +15,5 @@ for _ in range(t):
             used.add(x + 1)
             count += 1
     
-    print(count)
+    print(count) 
+    
