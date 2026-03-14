@@ -8,7 +8,6 @@ k = int(input())
 for _ in range(k):
     l, r = map(int, input().split())
 
-    # find first index >= l
     left = 0
     right = n - 1
     left_pos = n
@@ -21,7 +20,6 @@ for _ in range(k):
         else:
             left = mid + 1
 
-    # find first index > r
     left = 0
     right = n - 1
     right_pos = n

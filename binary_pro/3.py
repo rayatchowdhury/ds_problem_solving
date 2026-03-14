@@ -17,3 +17,4 @@ for q in queries:
             left = mid + 1
 
     print(ans + 1)
+    
